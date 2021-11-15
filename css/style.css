@@ -1,0 +1,161 @@
+/* *
+{
+    margin:0;
+    padding: 0;
+} */
+.navbar-nav
+{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 70%;
+}
+
+
+.icons
+{ 
+    /* background-color: blue; */
+    margin-left: auto;
+    /* width: 25%; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* header start  */
+.home-1
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+.home-2
+{
+    background-image: url(../images/post-1.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.home-3
+{
+    background-image: url(../images/post-2.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.home-4
+{
+    background-image: url(../images/post-3.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+.caption
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators li
+{    width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+
+}
+/* header end */
+
+/* start images */
+.caption-1
+{
+    z-index: 10;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.caption-2
+{
+    z-index: 10;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.caption-3
+{
+    z-index: 10;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+/* end images */
+
+/* start the best */
+/* .details::after
+{
+   content: "<i class="fas fa-angle-left"></i>";
+   color: brown;
+
+} */
+
+.title i
+{
+    left: 450px;
+    position: absolute;
+    top: 27px;
+    font-size: x-large;
+}
+/* end the best */
+
+
+/* start sign-in */
+.line
+{
+    width: 100%;
+    height: 2px;
+    background-color:gray;
+}
+.vertical {
+    border-left: 2px solid gray;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+    /* top: 20px; */
+}
+
+/* .sign input
+{
+    border:0px 1px 0px;
+} */
+/* end sign-in */
+
+/* start header */
+
+
+.input-group
+{
+    background-color: transparent;
+    border-bottom: white;
+}
+
+.icons-so
+{ 
+    /* background-color: blue; */
+    margin-left: auto;
+    /* width: 25%; */
+    display: flex;
+    justify-content:space-around;
+
+}
+/* end header */
