@@ -1,8 +1,7 @@
-/* *
+body
 {
-    margin:0;
-    padding: 0;
-} */
+    font-family: 'Cairo', sans-serif;
+}
 .navbar-nav
 {
     display: flex;
@@ -25,7 +24,7 @@
 /* header start  */
 .home-1
 {
-    background-image: url(../images/intro-bg.jpg);
+    background-image: url(../images/new/1.png);
     background-size: 100%;
     background-position: center;
 
@@ -40,7 +39,7 @@
 
 .home-3
 {
-    background-image: url(../images/post-2.jpg);
+    background-image: url(../images/new/1.png);
     background-size: 100%;
     background-position: center;
 
@@ -134,15 +133,57 @@
     /* top: 20px; */
 }
 
-/* .sign input
+.signIn h6
 {
-    border:0px 1px 0px;
-} */
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.signIn .input-group i
+{ 
+    color: darkgray;
+    margin: 20px 10px 1px 3px;
+}
+/* end sign-in */
+
+/* start signUp  */
+.signUp h6
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+/* end signUp */
+/* start create-acc */
+.createAcc h6
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+.create-acc .input-group i
+{ 
+    color: darkgray;
+    margin: 20px 10px 1px 3px;
+}
+.createAcc .cheak
+{
+    display: flex;
+}
+.createAcc .done
+{
+    display: flex;
+}
 /* end sign-in */
 
 /* start header */
 
-
+.caption .shop
+{
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    text-decoration: underline;
+    color: white;
+}
 .input-group
 {
     background-color: transparent;
@@ -159,3 +200,57 @@
 
 }
 /* end header */
+
+/* start modern */
+.owl-carousel img
+{
+    transition: all 1s;
+
+}
+.owl-carousel img:hover
+{
+    /* z-index: 10;
+    position: absolute;
+    top: 10px;
+    bottom: 20px; */
+    transform: scale(1.5); 
+}
+
+/* end  modern */
+
+
+/* start the-best */
+/* .the-best .image
+{
+    background-image: url(../images/new/9.png);
+    background-size: cover;
+    background-position: center center;
+
+} */
+
+
+/* start the-best */
+/* start footer */
+header .ico-1 i
+{
+    position: absolute;
+    right: -4px;
+    top: 62px;
+
+}
+header .ico-2 i
+{
+    position: absolute;
+    right: -4px;
+    top: 62px;
+
+}
+.email .form-control
+{
+    background-color: transparent !important;
+    border: none;
+
+
+}
+
+/* end footer */
