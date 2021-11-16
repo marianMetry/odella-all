@@ -101,12 +101,27 @@ body
 /* end images */
 
 /* start the best */
-/* .details::after
+.title h2
 {
-   content: "<i class="fas fa-angle-left"></i>";
-   color: brown;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 94px;
+    color: #111111;
+}
+.the-best .text
+{
+    font-family: Cairo;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
 
-} */
+
+}
 
 .title i
 {
@@ -249,8 +264,41 @@ header .ico-2 i
 {
     background-color: transparent !important;
     border: none;
-
-
 }
 
 /* end footer */
+
+
+/* start about */
+.about
+{
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) , url(../images/new/27.png);
+     background-position: center;
+     background-size: cover;
+}
+.about .all
+{
+
+font-family: Cairo;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 196.4%;
+text-align: center;
+color: white;
+}
+.about .text
+{
+    font-family: Cairo;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+/* end about */
